@@ -20,8 +20,8 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         // print app info
         print("Launching Policia Peru v\(AppVersion) Build \(AppBuild)")
         
-        // validate R.swift on debug builds
-        R.assertValid()
+        
+
         
         return true
     }

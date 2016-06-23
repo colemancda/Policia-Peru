@@ -10,5 +10,21 @@ import SwiftFoundation
 
 public extension Store {
     
-    
+    /*
+    func newReport(completion: ErrorValue<()> -> ()) {
+        
+        // build request
+        
+        let URI = "/api/rubros"
+        
+        var request = HTTP.Request(URL: serverURL + URI)
+        
+        addHeaders(&request)
+        
+        request.method = .GET
+        
+        // execute request
+        
+        getEntity(request) { completion($0) }
+    }*/
 }
