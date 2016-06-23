@@ -13,5 +13,7 @@ public class Store {
     
     public static let shared = Store()
     
+    // MARK: - Properties
     
+    public var serverURL: String = "http://consultas.mininter.gob.pe"
 }

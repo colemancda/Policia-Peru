@@ -7,15 +7,22 @@
 //
 
 import UIKit
+import Rswift
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+final class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // print app info
+        print("Launching Policia Peru v\(AppVersion) Build \(AppBuild)")
+        
+        // validate R.swift on debug builds
+        R.assertValid()
+        
         return true
     }
 

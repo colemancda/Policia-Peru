@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		6E00D19D1D1B7F5000278274 /* R.swift */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6E00D19E1D1B7F5000278274 /* Build configuration list for PBXAggregateTarget "R.swift" */;
+			buildPhases = (
+				6E00D1A11D1B7F6100278274 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = R.swift;
+			productName = R.swift;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		6E00D17C1D1B628A00278274 /* CorePolicia.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E00D17B1D1B628A00278274 /* CorePolicia.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E00D1831D1B628A00278274 /* CorePolicia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E00D1791D1B628A00278274 /* CorePolicia.framework */; };
@@ -13,6 +27,8 @@
 		6E00D18E1D1B628A00278274 /* CorePolicia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E00D1791D1B628A00278274 /* CorePolicia.framework */; };
 		6E00D18F1D1B628A00278274 /* CorePolicia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E00D1791D1B628A00278274 /* CorePolicia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6E00D1981D1B6EE400278274 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E00D1971D1B6EE400278274 /* Store.swift */; };
+		6E00D19A1D1B7E5900278274 /* NewReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E00D1991D1B7E5900278274 /* NewReport.swift */; };
+		6E00D19C1D1B7ED600278274 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E00D19B1D1B7ED600278274 /* Version.swift */; };
 		6E2538361D1A1E68003E3400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2538351D1A1E68003E3400 /* AppDelegate.swift */; };
 		6E25383B1D1A1E68003E3400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2538391D1A1E68003E3400 /* Main.storyboard */; };
 		6E25383D1D1A1E68003E3400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E25383C1D1A1E68003E3400 /* Assets.xcassets */; };
@@ -26,13 +42,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6E00D1781D1B628A00278274;
 			remoteInfo = CorePolicia;
-		};
-		6E00D1861D1B628A00278274 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E25382A1D1A1E68003E3400 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6E2538311D1A1E68003E3400;
-			remoteInfo = "Policia Peru";
 		};
 		6E00D18C1D1B628A00278274 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +74,8 @@
 		6E00D1891D1B628A00278274 /* CorePoliciaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorePoliciaTests.swift; sourceTree = "<group>"; };
 		6E00D18B1D1B628A00278274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E00D1971D1B6EE400278274 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		6E00D1991D1B7E5900278274 /* NewReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewReport.swift; sourceTree = "<group>"; };
+		6E00D19B1D1B7ED600278274 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 		6E2538321D1A1E68003E3400 /* Policia Peru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Policia Peru.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2538351D1A1E68003E3400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E25383A1D1A1E68003E3400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -105,6 +116,7 @@
 			children = (
 				6E00D17B1D1B628A00278274 /* CorePolicia.h */,
 				6E00D1971D1B6EE400278274 /* Store.swift */,
+				6E00D1991D1B7E5900278274 /* NewReport.swift */,
 				6E00D17D1D1B628A00278274 /* Info.plist */,
 			);
 			path = CorePolicia;
@@ -143,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				6E2538351D1A1E68003E3400 /* AppDelegate.swift */,
+				6E00D19B1D1B7ED600278274 /* Version.swift */,
 				6E2538391D1A1E68003E3400 /* Main.storyboard */,
 				6E25383C1D1A1E68003E3400 /* Assets.xcassets */,
 				6E25383E1D1A1E68003E3400 /* LaunchScreen.storyboard */,
@@ -195,7 +208,6 @@
 			);
 			dependencies = (
 				6E00D1851D1B628A00278274 /* PBXTargetDependency */,
-				6E00D1871D1B628A00278274 /* PBXTargetDependency */,
 			);
 			name = CorePoliciaTests;
 			productName = CorePoliciaTests;
@@ -236,7 +248,9 @@
 					};
 					6E00D1811D1B628A00278274 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 6E2538311D1A1E68003E3400;
+					};
+					6E00D19D1D1B7F5000278274 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 					6E2538311D1A1E68003E3400 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -259,6 +273,7 @@
 				6E2538311D1A1E68003E3400 /* Policia Peru */,
 				6E00D1781D1B628A00278274 /* CorePolicia */,
 				6E00D1811D1B628A00278274 /* CorePoliciaTests */,
+				6E00D19D1D1B7F5000278274 /* R.swift */,
 			);
 		};
 /* End PBXProject section */
@@ -290,11 +305,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E00D1A11D1B7F6100278274 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/rswift\" \"-p\" \"$SRCROOT/Policia Peru.xcodeproj\" \"-t\" \"Policia Peru\" \"--bundleIdentifier\" \"com.colemancda.Policia-Peru\" \"$SRCROOT\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E00D1741D1B628A00278274 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E00D19A1D1B7E5900278274 /* NewReport.swift in Sources */,
 				6E00D1981D1B6EE400278274 /* Store.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E00D19C1D1B7ED600278274 /* Version.swift in Sources */,
 				6E2538361D1A1E68003E3400 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,11 +355,6 @@
 			isa = PBXTargetDependency;
 			target = 6E00D1781D1B628A00278274 /* CorePolicia */;
 			targetProxy = 6E00D1841D1B628A00278274 /* PBXContainerItemProxy */;
-		};
-		6E00D1871D1B628A00278274 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6E2538311D1A1E68003E3400 /* Policia Peru */;
-			targetProxy = 6E00D1861D1B628A00278274 /* PBXContainerItemProxy */;
 		};
 		6E00D18D1D1B628A00278274 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -406,7 +434,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.colemancda.CorePoliciaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Policia Peru.app/Policia Peru";
 			};
 			name = Debug;
 		};
@@ -418,7 +445,20 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.colemancda.CorePoliciaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Policia Peru.app/Policia Peru";
+			};
+			name = Release;
+		};
+		6E00D19F1D1B7F5000278274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E00D1A01D1B7F5000278274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -445,6 +485,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = $SRCROOT/Carthage/Build/iOS;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -491,6 +532,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = $SRCROOT/Carthage/Build/iOS;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -547,6 +589,14 @@
 			buildConfigurations = (
 				6E00D1921D1B628A00278274 /* Debug */,
 				6E00D1931D1B628A00278274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E00D19E1D1B7F5000278274 /* Build configuration list for PBXAggregateTarget "R.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E00D19F1D1B7F5000278274 /* Debug */,
+				6E00D1A01D1B7F5000278274 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
